@@ -28,4 +28,5 @@ tzlocal==2.0.0
 urllib3==2.2.2
 Werkzeug==3.0.3
 xgboost==2.1.0
+pandas==2.1.4
 gunicorn 
