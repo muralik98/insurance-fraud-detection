@@ -1,0 +1,37 @@
+col_to_delete:
+  - policy_number
+  - incident_date
+  - policy_bind_date
+  - insured_zip
+  - insured_hobbies
+  - policy_state
+  - incident_location
+  - incident_state
+  - incident_city
+  - auto_make
+  - auto_model
+  - insured_education_level
+  - insured_occupation
+
+ord_categorical_cols:
+  - insured_sex
+  - incident_severity
+
+
+ohe_categorical_cols:
+  - insured_relationship
+  - incident_type
+  - collision_type
+  - incident_severity
+  - authorities_contacted
+  - property_damage
+  - police_report_available
+
+policy_csl : policy_csl
+
+
+processed_train_data_path : ./artifacts/ProcessedTrainPipe
+
+processed_predict_data_path :  ./artifacts/ProcessedPredictPipe
+
+target_col : fraud_reported

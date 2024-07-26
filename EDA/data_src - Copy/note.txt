@@ -1,0 +1,11 @@
+--Train Data 
+
+{
+    "folderPath": "C:/Users/mural/CODING_MK/PROJECT/Portfolio_Project/Insurance Fraud Detection/InsuranceFraudDetection/train_data_src"
+}
+
+
+
+{
+    "filepath": "C:/Users/mural/CODING_MK/PROJECT/Portfolio_Project/Insurance Fraud Detection/InsuranceFraudDetection/test_data_src"
+}

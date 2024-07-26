@@ -1,0 +1,5 @@
+final_predicted_output : ./artifacts/FinalPredictedOutput
+
+test_raw_data_path : ./test_data_src
+
+test_validated_data : ./artifacts/test/valid_raw

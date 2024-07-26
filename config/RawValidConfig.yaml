@@ -1,0 +1,8 @@
+artifacts:
+  train_valid: ./artifacts/train/valid_raw
+  train_invalid: ./artifacts/train/invalid_raw
+  test_valid: ./artifacts/test/valid_raw
+  test_invalid: ./artifacts/test/invalid_raw
+
+regex_schema: ^fraudDetection_\d.*_\d{6}\.csv$
+predict_regex_schema: ^predict_fraudDetection_\d.*_\d{6}\.csv$

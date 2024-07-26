@@ -1,0 +1,6 @@
+train_raw_data_path : ./train_data_src
+test_raw_data_path : ./test_data_src
+
+train_validated_data : ./artifacts/train/valid_raw
+
+test_validated_data : ./artifacts/test/valid_raw
